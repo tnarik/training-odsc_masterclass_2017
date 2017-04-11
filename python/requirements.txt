@@ -10,6 +10,7 @@ matplotlib==1.5.3
 
 # Deep learning
 Keras==1.2.2
+h5py==2.7.0 # Load/save model dependency
 ## TensorFlow
 #https://storage.googleapis.com/tensorflow/mac/cpu/protobuf-3.2.0-cp35-none-macosx_10_11_x86_64.whl # Is meant to make Tensorflow faster
 https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
