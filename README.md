@@ -49,19 +49,6 @@ git remote add -f h2o_dl https://github.com/woobe/odsc_h2o_deep_learning.git
 git subtree add --prefix python/odsc_h2o_deep_learning h2o_dl master --squash
 ```
 
-### Introduction to Machine Learning
-
-I got this repository as a reference but didn't use it during the summit.
-
-* Remote: `intro_ml_py`
-* Repository: [https://github.com/amueller/introduction_to_ml_with_python.git](https://github.com/amueller/introduction_to_ml_with_python.git)
-
-```
-git remote add -f intro_ml_py https://github.com/amueller/introduction_to_ml_with_python.git
-git subtree add --prefix python/introduction_to_ml_with_python intro_ml_py master --squash
-```
-
-
 ### Introduction to scikit-learn
 
 Morning masterclass about scikit-learn, during March 2.
@@ -86,10 +73,28 @@ git remote add -f advanced_skl https://github.com/amueller/odsc-masterclass-2017
 git subtree add --prefix python/odsc-masterclass-2017-afternoon advanced_skl master --squash
 ```
 
-## External downloads
+### Introduction to Machine Learning
+
+This repository was used at the very end of the afternoon masterclass about scikit-learn, during March 2.
+
+Notebook `07-working-with-text-data` is the last one we looked at and it is using the accompanying dataset extracted from [http://ai.stanford.edu/~amaas/data/sentiment/](http://ai.stanford.edu/~amaas/data/sentiment/), available here in `.tar.gz` format as `datasets/aclImdb_v1.tar.gz`.
+
+
+* Remote: `intro_ml_py`
+* Repository: [https://github.com/amueller/introduction_to_ml_with_python.git](https://github.com/amueller/introduction_to_ml_with_python.git)
+
+```
+git remote add -f intro_ml_py https://github.com/amueller/introduction_to_ml_with_python.git
+git subtree add --prefix python/introduction_to_ml_with_python intro_ml_py master --squash
+```
+
+
+## Environment
 
 During the masterclass, the following products were used:
 
 1. Data Science Studio from [Dataiku](https://www.dataiku.com/): The 4.0.1 version was [available as a free install](https://www.dataiku.com/dss/trynow/mac/). It is still avaible there as of 2017-04-11.
 
    That class was mainly a presentation of the product, so I didn't get to install it and play around with it.
+ 
+2. Everything else was Python based (I didn't attend any other course), and the environment is described (with minor updates) as `requirements.txt`.
