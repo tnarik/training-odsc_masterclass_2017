@@ -10,7 +10,7 @@ matplotlib==1.5.3
 
 # Deep learning
 Keras==1.2.2
-h5py==2.7.0 # Load/save model dependency
+h5py==2.7.0 # Load/save model dependency for Keras
 ## TensorFlow
 #https://storage.googleapis.com/tensorflow/mac/cpu/protobuf-3.2.0-cp35-none-macosx_10_11_x86_64.whl # Is meant to make Tensorflow faster
 https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl
@@ -25,6 +25,8 @@ graphviz==0.5.2   # Also needs `brew install graphviz`
 
 # For Sequential Feature Selection
 mlxtend==0.5.1
+
+# Graphics from the Introduction to machine learning with Python book
 mglearn==0.1.3
 
 # To read Excel files
