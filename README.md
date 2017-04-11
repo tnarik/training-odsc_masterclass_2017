@@ -14,15 +14,21 @@ In particular, most content comes from the ODSC Masterclass Summit 2017 (held Ma
 
 ### Introduction to Deep Learning
 
-Repository: [https://github.com/dansbecker/ODSC-Intro-to-DL-Workshop](https://github.com/dansbecker/ODSC-Intro-to-DL-Workshop)
-
 First masterclass of the summit, during March 1.
+
+* Remote:
+* Repository: [https://github.com/dansbecker/ODSC-Intro-to-DL-Workshop.git](https://github.com/dansbecker/ODSC-Intro-to-DL-Workshop.git)
+
+```
+git remote add -f h2o_ml https://github.com/woobe/odsc_h2o_machine_learning.git
+git subtree add --prefix python/odsc_h2o_machine_learning h2o_m
+```
 
 ### Machine Learning with H2O Open Platform
 
 First afternoon masterclass about H2O, during March 1.
 
-* Remote: h2o_ml
+* Remote: `h2o_ml`
 * Repository: [https://github.com/woobe/odsc_h2o_machine_learning.git](https://github.com/woobe/odsc_h2o_machine_learning.git)
 
 ```
@@ -35,19 +41,26 @@ git subtree add --prefix python/odsc_h2o_machine_learning h2o_ml master --squash
 
 Second afternoon masterclass about H2O, during March 1.
 
-* Remote: h2o_dl
+* Remote: `h2o_dl`
 * Repository: [https://github.com/woobe/odsc_h2o_deep_learning.git](https://github.com/woobe/odsc_h2o_deep_learning.git)
 
 ```
 git remote add -f h2o_dl https://github.com/woobe/odsc_h2o_deep_learning.git
-git subtree add --prefix python/odsc_h2o_deep_learning.git h2o_dl master --squash
+git subtree add --prefix python/odsc_h2o_deep_learning h2o_dl master --squash
 ```
 
 ### Introduction to Machine Learning
 
-Repository: [https://github.com/amueller/introduction_to_ml_with_python](https://github.com/amueller/introduction_to_ml_with_python)
-
 I got this repository as a reference but didn't use it during the summit.
+
+* Remote: `intro_ml_py`
+* Repository: [https://github.com/amueller/introduction_to_ml_with_python.git](https://github.com/amueller/introduction_to_ml_with_python.git)
+
+```
+git remote add -f intro_ml_py https://github.com/amueller/introduction_to_ml_with_python.git
+git subtree add --prefix python/introduction_to_ml_with_python intro_ml_py master --squash
+```
+
 
 ### Introduction to scikit-learn
 
