@@ -16,12 +16,12 @@ In particular, most content comes from the ODSC Masterclass Summit 2017 (held Ma
 
 First masterclass of the summit, during March 1.
 
-* Remote:
+* Remote: `intro_dl`
 * Repository: [https://github.com/dansbecker/ODSC-Intro-to-DL-Workshop.git](https://github.com/dansbecker/ODSC-Intro-to-DL-Workshop.git)
 
 ```
-git remote add -f h2o_ml https://github.com/woobe/odsc_h2o_machine_learning.git
-git subtree add --prefix python/odsc_h2o_machine_learning h2o_m
+git remote add -f intro_dl https://github.com/dansbecker/ODSC-Intro-to-DL-Workshop.git
+git subtree add --prefix python/intro_to_deep_learning intro_dl
 ```
 
 ### Machine Learning with H2O Open Platform
