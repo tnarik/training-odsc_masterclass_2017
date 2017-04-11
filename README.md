@@ -20,15 +20,22 @@ First masterclass of the summit, during March 1.
 
 ### Machine Learning with H2O Open Platform
 
-Repository: [https://github.com/woobe/odsc_h2o_machine_learning.git](https://github.com/woobe/odsc_h2o_machine_learning.git)
-
 First afternoon masterclass about H2O, during March 1.
+
+* Remote: h2o_ml
+* Repository: [https://github.com/woobe/odsc_h2o_machine_learning.git](https://github.com/woobe/odsc_h2o_machine_learning.git)
+
+`git remote add -f h2o_ml https://github.com/woobe/odsc_h2o_machine_learning.git`
+
 
 ### Deep Learning with H2O Open Platform
 
-Repository: [https://github.com/woobe/odsc_h2o_deep_learning](https://github.com/woobe/odsc_h2o_deep_learning)
-
 Second afternoon masterclass about H2O, during March 1.
+
+* Remote: h2o_dl
+* Repository: [https://github.com/woobe/odsc_h2o_deep_learning.git](https://github.com/woobe/odsc_h2o_deep_learning.git)
+
+`git remote add -f h2o_dl https://github.com/woobe/odsc_h2o_deep_learning.git`
 
 ### Introduction to Machine Learning
 
