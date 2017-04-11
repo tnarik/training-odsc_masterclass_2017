@@ -25,7 +25,10 @@ First afternoon masterclass about H2O, during March 1.
 * Remote: h2o_ml
 * Repository: [https://github.com/woobe/odsc_h2o_machine_learning.git](https://github.com/woobe/odsc_h2o_machine_learning.git)
 
-`git remote add -f h2o_ml https://github.com/woobe/odsc_h2o_machine_learning.git`
+```
+git remote add -f h2o_ml https://github.com/woobe/odsc_h2o_machine_learning.git
+git subtree add --prefix python/odsc_h2o_machine_learning h2o_ml master --squash
+```
 
 
 ### Deep Learning with H2O Open Platform
@@ -35,7 +38,10 @@ Second afternoon masterclass about H2O, during March 1.
 * Remote: h2o_dl
 * Repository: [https://github.com/woobe/odsc_h2o_deep_learning.git](https://github.com/woobe/odsc_h2o_deep_learning.git)
 
-`git remote add -f h2o_dl https://github.com/woobe/odsc_h2o_deep_learning.git`
+```
+git remote add -f h2o_dl https://github.com/woobe/odsc_h2o_deep_learning.git
+git subtree add --prefix python/odsc_h2o_deep_learning.git h2o_dl master --squash
+```
 
 ### Introduction to Machine Learning
 
