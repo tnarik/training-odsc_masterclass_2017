@@ -6,17 +6,47 @@ This is a bundle compiling information (and snapshots of external repositories) 
 
 In particular, most content comes from the ODSC Masterclass Summit 2017 (held March 1-2 in San Francisco).
 
-For one of the courses, the accompanying PDF is the version that comes from: [https://github.com/fluxcapacitor/pipeline/wiki/ODSC-Masterclass-Workshop-Mar-01-2017]()
+## Papers
 
-## Masterclasses repos
+`Deploying and Scaling Spark ML and Tensorflow AI Models.pdf` (from [https://github.com/fluxcapacitor/pipeline/wiki/ODSC-Masterclass-Workshop-Mar-01-2017](https://github.com/fluxcapacitor/pipeline/wiki/ODSC-Masterclass-Workshop-Mar-01-2017)) details the requirements for one of the masterclasses I didn't attend, about deploying and scaling.
 
-### This: [this](this)
+## Masterclass repos
 
-<fill me>
+### Introduction to Deep Learning
 
-### That: [that](that)
+Repository: [https://github.com/dansbecker/ODSC-Intro-to-DL-Workshop](https://github.com/dansbecker/ODSC-Intro-to-DL-Workshop)
 
-<fill me>
+First masterclass of the summit, during March 1.
+
+### Machine Learning with H2O Open Platform
+
+Repository: [https://github.com/woobe/odsc_h2o_machine_learning.git](https://github.com/woobe/odsc_h2o_machine_learning.git)
+
+First afternoon masterclass about H2O, during March 1.
+
+### Deep Learning with H2O Open Platform
+
+Repository: [https://github.com/woobe/odsc_h2o_deep_learning](https://github.com/woobe/odsc_h2o_deep_learning)
+
+Second afternoon masterclass about H2O, during March 1.
+
+### Introduction to Machine Learning
+
+Repository: [https://github.com/amueller/introduction_to_ml_with_python](https://github.com/amueller/introduction_to_ml_with_python)
+
+I got this repository as a reference but didn't use it during the summit.
+
+### Introduction to scikit-learn
+
+Repository: [https://github.com/amueller/odsc-masterclass-2017-morning](https://github.com/amueller/odsc-masterclass-2017-morning)
+
+Morning masterclass about scikit-learn, during March 2.
+
+### Advanced scikit-learn
+
+Repository: [https://github.com/amueller/odsc-masterclass-2017-afternoon](https://github.com/amueller/odsc-masterclass-2017-afternoon)
+
+Afternoon masterclass about scikit-learn, during March 2.
 
 ## External downloads
 
