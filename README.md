@@ -64,15 +64,27 @@ git subtree add --prefix python/introduction_to_ml_with_python intro_ml_py maste
 
 ### Introduction to scikit-learn
 
-Repository: [https://github.com/amueller/odsc-masterclass-2017-morning](https://github.com/amueller/odsc-masterclass-2017-morning)
-
 Morning masterclass about scikit-learn, during March 2.
+
+* Remote: `intro_skl`
+* Repository: [https://github.com/amueller/odsc-masterclass-2017-morning.git](https://github.com/amueller/odsc-masterclass-2017-morning.git)
+
+```
+git remote add -f intro_skl https://github.com/amueller/odsc-masterclass-2017-morning.git
+git subtree add --prefix python/odsc-masterclass-2017-morning intro_skl master --squash
+```
 
 ### Advanced scikit-learn
 
-Repository: [https://github.com/amueller/odsc-masterclass-2017-afternoon](https://github.com/amueller/odsc-masterclass-2017-afternoon)
-
 Afternoon masterclass about scikit-learn, during March 2.
+
+* Remote: `advanced_skl`
+* Repository: [https://github.com/amueller/odsc-masterclass-2017-afternoon](https://github.com/amueller/odsc-masterclass-2017-afternoon.git)
+
+```
+git remote add -f advanced_skl https://github.com/amueller/odsc-masterclass-2017-afternoon
+git subtree add --prefix python/odsc-masterclass-2017-afternoon advanced_skl master --squash
+```
 
 ## External downloads
 
